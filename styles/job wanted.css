@@ -1,0 +1,124 @@
+/* 、、、、、   头部开始、、、、、、、、、、、、、、、、、 */
+#app {
+    width: 100%;
+    max-width: 22.5rem;
+    min-width: 10rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.card-header {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header {
+    margin: 0 auto;
+     width: 100%;
+     height:17rem;
+    background: url("../images/img/bg.png") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+.header .shizi{
+    width: 100%;
+    height: 1.25rem;
+    bottom: 1.25rem;
+    
+}
+.header .shizi ul{
+    width: 14.25rem;
+    height: 15rem;
+    margin: 0 auto;
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+}
+.header .shizi ul li a{
+    color: #ffffff;
+    font-size: .8125rem;
+    
+}
+.header .shizi ul .jjjk a{
+    color: #888888;
+    font-size: .8125rem;
+}
+.jiantou {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1.0625rem;
+    height: 1.0625rem;
+    background: #ffffff;
+    transform: rotate(45deg);
+    bottom: -0.5rem;
+    margin-left: 4.7rem;
+}
+/* 、、、、、、、、、 头部结束、、、、、、、、、、、、、、、、、、、、、 */
+
+.card_section{
+    width: 100%;
+    margin-top: 2.6875rem;
+    box-sizing:border-box;
+}
+.card_section .form{
+    width: 18.4375rem;
+    margin: 0 auto;
+}
+
+
+.card_section form{
+  height: 3.125rem;
+  border: .03125rem solid #999999;
+  border-radius: 1.5rem;
+  line-height: 2.8rem;
+  margin-bottom: .4375rem;
+
+}
+.card_section form span{
+    color: #666666;
+    font-size: .75rem;
+    padding-left: 1.5625rem;
+}
+.card_section form input{
+    color: #666666;
+    font-size: .75rem;
+    border: none;
+    
+}
+.card_section form .lll{
+    font-size: .75rem;
+    padding-left: 0;
+
+}
+.card_section .form .eee{
+    margin-top: 1.25rem;
+}
+.card_section .form button{
+    width: 18.4375rem;
+    height: 3.125rem;
+    margin: 0 auto;
+    background:#85b2f6;
+    color: #fefefe;
+    font-size: .9375rem;
+    text-align: center;
+    border:none;
+    border-radius: 1.5rem;
+    outline: none;
+}
+.footer{
+    margin-top: .9375rem;
+    width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.footer ul{
+    width: 4.53125rem;
+    height: .625rem;
+    display: flex;
+    text-align: center;
+}
+.footer ul li{
+    font-size: .625rem;
+    color: #999999;
+}

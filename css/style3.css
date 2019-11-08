@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0;
+}
+#app{
+    width: 100%;
+    min-width: 10rem;
+    max-width: 23.4375rem;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.padding{
+    padding: 0 1.1875rem 0 1.125rem
+}
+header{
+    height: 2.8125rem;
+    justify-content: flex-end;
+    border-bottom: .03125rem solid rgb(225, 225, 225);
+}
+.top{
+    width: 12.65625rem;
+    height: 2.8125rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.top p{
+    font-size: .8125rem;
+    font-weight: 600;
+}
+.top img{
+    width: 1.09375rem;
+}
+.main{
+    padding: 0 0.8rem 0 0.8rem;
+}
+.maintitle{
+    width: 18rem;
+    height: 2.71875rem;
+    margin-left: 1.5625rem;
+    border-bottom: .03125rem solid rgb(225, 225, 225);
+    text-align: center;
+    line-height: 3.51875rem;
+    font-size: .8125rem;
+}
+.users1{
+    height: 5.9375rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .9375rem;
+    padding: 0 0.3rem;
+}
+.users1 div{
+    width: 4.71875rem;
+    height: 4.6875rem;
+    position: relative;
+}
+.users1 .userspic{
+    width: 4.71875rem
+}
+.yuandian{
+    position: absolute;
+    left: 3.4375rem;
+    top: 0;
+    width: .8125rem;
+}
+.users2{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.users2 .users2head{
+    width: 6.09375rem;
+    height: 7.34375rem;
+    margin-top: 1.25rem;
+    position: relative;
+}
+.tianjia{
+    width: 5.96875rem;
+    height: 5.96875rem;
+    border-radius: 50%;
+    border: .0625rem dashed rgb(200, 207, 217);
+}
+.users2head .tianjia img{
+    width: 1.5625rem;
+    margin-top: 2.1875rem;
+    margin-left: 2.1875rem;
+}
+.users2head img{
+    width: 6.09375rem
+}
+.users2head p{
+    text-align: center;
+    font-size: .75rem;
+}
+.users2 .users2bottom{
+    width: 6.09375rem;
+    height: 5.34375rem;
+    margin-top: 1.25rem;
+    overflow: hidden;
+    position: relative;
+}
+.users2bottom img{
+    width: 6.09375rem
+}
+.users2head .bigyuandian{
+    width: .96875rem;
+    position: absolute;
+    top: .15625rem;
+    left: 4.53125rem;
+}
+.users2bottom .bigyuandian{
+    width: .96875rem;
+    position: absolute;
+    top: .15625rem;
+    left: 4.53125rem;
+}
+footer{
+    padding: 0 4.21875rem;
+    height: 2.75rem;
+    border-top: .03125rem solid rgb(227, 227, 227);
+    margin-top: -2.35rem;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+footer img{
+    height:1.25rem; 
+}
